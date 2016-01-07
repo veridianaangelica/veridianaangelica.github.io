@@ -1,14 +1,18 @@
 body{
 	color:#555555;
-	font-family: Arial, sans-serif;
 	font-size: 13px;
 }
-h1,h2,h3,h4{
-	color:#A9268D;
-	font-family: "Oswald", Arial,sans-serif;
+h1,h2,h3{
+	color:#F7BE81;
+	font-family: 'Abril Fatface', cursive;
+}
+h5{
+	color:#6E6E6E;
+	font-family: 'Abril Fatface', cursive;
 }
 .list-nav{
 	text-align: center;
+	padding-top: 10px;
 }
 .list-nav li{
 	display: inline-block;
@@ -16,14 +20,19 @@ h1,h2,h3,h4{
 .list-nav a{
 	display: block;
 	padding: 5px 20px;
-	color:#555555;
-	font-family: "Oswald", Arial, sans-serif;
+	color:#F7BE81;
+	font-family: 'Abril Fatface', cursive;
 	transition:all 0.5s;
 }
 .list-nav a:hover{
     text-decoration: none;
     background: #ECECEC;
     transform: scale(1.2)
+}
+.logo{
+	width: 40px;
+	height: 60px;
+	border-radius: 60%;
 }
 .header_content{
 	background: url("../images/portada.jpg")center center;
@@ -64,9 +73,18 @@ h1,h2,h3,h4{
 .list-images li{
 	display: inline-block;
 }
-.list-nav a{
+.list-images p{
 	display: block;
-	}
+	padding: 5px 20px;
+	color:#BDBDBD;
+	font-family: 'Abril Fatface', cursive;
+	transition:all 0.5s;
+}
+.list-images p:hover{
+    text-decoration: none;
+    color:#F7BE81;
+    transform: scale(1.2)
+}
 .imagenes{
 	width: 300px;
 	height: 300px;
@@ -75,17 +93,26 @@ h1,h2,h3,h4{
 	border: 1px dashed #BDBDBD;
 	padding: 5px;
 }
-.linea1{
-	background-color: #A9268D;
-	width: 70px;
-	height: 5px;
+.list-portfolio li{
 	display: inline-block;
+	margin-right: 20px;
+}
+.list-portfolio p{
+	display: block;
+	padding: 5px 20px;
+	color:#BDBDBD;
+	font-family: 'Abril Fatface', cursive;
+	transition:all 0.5s;
+}
+.list-portfolio p:hover{
+    text-decoration: none;
+    color:#F7BE81;
+    transform: scale(1.2)
 }
 .imag{
 	width: 250px;
-	height: 250px;
-	border: 1px dashed #BDBDBD;
-	padding: 5px;
+	height: 150px;
+	border: 5px solid black;
 }
 .favoritos, .contactame{
 	text-align: center;
@@ -94,9 +121,25 @@ h1,h2,h3,h4{
 	background: url(../images/tile2.png);
 	height: 320px;
 }
+.contact{
+	width: 50px;
+}
 .list-contactame li{
 	display: inline-block;
 	margin-right: 20px;
+}
+.list-contactame p{
+	display: block;
+	padding: 5px 20px;
+	color:#6E6E6E;
+	font-family: 'Abril Fatface', cursive;
+	transition:all 0.5s;
+}
+.list-contactame p:hover{
+    text-decoration: none;
+    color:#F7BE81;
+    background: #ECECEC;
+    transform: scale(1.2)
 }
 .footer{
 	background-color: #151515;
