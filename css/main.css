@@ -26,14 +26,16 @@ h1,h2,h3,h4{
     transform: scale(1.2)
 }
 .header_content{
-	background: url("../images/Dubai2.jpg")center center;
+	background: url("../images/portada.jpg")center center;
 	background-size: cover;
 	color:#FFF;
     text-align: center;
     padding: 100px 0;
+    opacity:0.9;
 }
 .header_content h1{
 	color:#FFF;
+	text-shadow:2px 2px 0.2px #000000;
 }
 .frase{
 	margin-top: 20px;
@@ -73,6 +75,18 @@ h1,h2,h3,h4{
 	border: 1px dashed #BDBDBD;
 	padding: 5px;
 }
+.linea1{
+	background-color: #A9268D;
+	width: 70px;
+	height: 5px;
+	display: inline-block;
+}
+.imag{
+	width: 250px;
+	height: 250px;
+	border: 1px dashed #BDBDBD;
+	padding: 5px;
+}
 .favoritos, .contactame{
 	text-align: center;
 }
@@ -83,4 +97,9 @@ h1,h2,h3,h4{
 .list-contactame li{
 	display: inline-block;
 	margin-right: 20px;
+}
+.footer{
+	background-color: #151515;
+	color: #848484;
+	height: 100px;
 }
